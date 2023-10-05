@@ -59,4 +59,16 @@
     height: 5%;
     width: 100%;
     background-color: lightgrey;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.footerbutton button {
+    
+    height: 30px;
+    width: 100px;
+    background-color: aqua;
+    /* margin-right: 20px; */
 }
