@@ -6,7 +6,7 @@
 .container{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(cornflowerblue,lightblue,white);
+    background-image: linear-gradient(cornflowerblue,lightblue,lightcyan);
     display: flex;
     flex-wrap: wrap;
 }
@@ -25,7 +25,7 @@
 .image{
     height: 30%;
     width: 100%;
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
     display: flex;
     justify-content: center;
 }
@@ -33,9 +33,9 @@
 .description{
     height: 30%;
     width: 100%;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color:grey;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -47,12 +47,12 @@
 .list{
     height: 30%;
     width: 100%;
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color:gray;
     font-size: 1.5em;
 }
 .footer{
@@ -69,6 +69,8 @@
     
     height: 30px;
     width: 100px;
-    background-color: aqua;
-    /* margin-right: 20px; */
+    background-color:lightblue;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    margin-top: 5px;
 }
